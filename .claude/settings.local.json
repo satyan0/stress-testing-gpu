@@ -10,7 +10,9 @@
       "Bash(sudo ln -sf /usr/local/cuda-12.9 /usr/local/cuda)",
       "Bash(sudo tee /usr/bin/nvcc)",
       "Bash(nvcc --version)",
-      "Bash(cd *)"
+      "Bash(cd *)",
+      "Bash(mv results/vllm.json results/vllm_fp8_util0875.json)",
+      "Bash(nvidia-smi --query-gpu=memory.used --format=csv,noheader)"
     ]
   }
 }
