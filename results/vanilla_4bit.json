@@ -1,0 +1,49 @@
+{
+  "backend": "vanilla-hf",
+  "model": "meta-llama/Llama-3.1-70B-Instruct",
+  "quant": "4bit",
+  "device_total_mb": 97887,
+  "model_resident_mb": 42060,
+  "runs": [
+    {
+      "n_in": 262,
+      "n_out": 204,
+      "ttft_s": 0.515,
+      "total_s": 9.238,
+      "decode_tok_s": 23.4,
+      "peak_vram_mb": 43323,
+      "output": "Based on the provided NIT, the following eligibility criteria can be assessed:\n\n1. Earnest Money Deposit (EMD): The NIT specifies an EMD of INR 18,42,000. We need verification on whether we can meet this financial requirement.\n\n2. Tender Fee: The NIT does not specify the tender fee amount. We need verification on the tender fee amount and whether we can meet this financial requirement.\n\n3. Technical Eligibility: The NIT does not provide specific technical eligibility criteria. We need verification on the technical eligibility requirements and whether we can meet them.\n\n4. Other Eligibility Criteria: The NIT does not provide other eligibility criteria such as experience, turnover, or certifications. We need verification on these criteria and whether we can meet them.\n\nIn conclusion, we can confirm that we are eligible to bid only if we can meet the EMD requirement of INR 18,42,000. Other eligibility criteria need verification before we can confirm our eligibility to bid.",
+      "target_in_tok": 128
+    },
+    {
+      "n_in": 1155,
+      "n_out": 105,
+      "ttft_s": 0.608,
+      "total_s": 5.022,
+      "decode_tok_s": 23.8,
+      "peak_vram_mb": 43771,
+      "output": "The EMD amount is INR 18,42,000, which is 1% of the tender value. The acceptable modes of submission are via Bank Guarantee (BG) or online payment on the GeM/CPPP portal. The EMD is required to be valid for 180 days.\n\nClause: Earnest Money Deposit (EMD): INR 18,42,000 (1% of tender value), via BG or online payment on the GeM/CPPP portal; valid 180 days.",
+      "target_in_tok": 1024
+    },
+    {
+      "n_in": 4224,
+      "n_out": 257,
+      "ttft_s": 1.847,
+      "total_s": 13.373,
+      "decode_tok_s": 22.3,
+      "peak_vram_mb": 45859,
+      "output": "Based on the tender notice, the scope of work includes:\n\n* Design and detailed engineering of the 33/11 kV substation\n* Supply of major equipment such as 2 x 10 MVA power transformers, 33 kV and 11 kV switchgear, control & relay panels, battery and charger, earthing and lightning protection\n* Associated civil works (control room, transformer plinths, cable trenches, boundary wall)\n* SCADA-ready RTU integration\n* Testing, commissioning and 24-month O&M support\n\nThe three most technically demanding deliverables that require careful resourcing are:\n\n1. **Design and detailed engineering of the 33/11 kV substation**: This requires specialized expertise in electrical engineering, particularly in substation design, to ensure that the design meets the required specifications and standards.\n2. **Supply and installation of 2 x 10 MVA power transformers**: The transformers are critical components of the substation, and their supply and installation require careful planning and execution to ensure that they meet the required specifications and are properly integrated into the substation.\n3. **SCADA-ready RTU integration**: The integration of the Remote Terminal Unit (RTU) with the SCADA system requires specialized expertise in control and",
+      "target_in_tok": 4096
+    },
+    {
+      "n_in": 8328,
+      "n_out": 257,
+      "ttft_s": 3.763,
+      "total_s": 15.901,
+      "decode_tok_s": 21.2,
+      "peak_vram_mb": 47683,
+      "output": "Based on the provided tender notice, the most onerous commercial clauses are:\n\n1. Liquidated Damages (LD): Clause C2 states that liquidated damages of 0.5% of the contract value per week of delay shall apply, subject to a ceiling of 10% of the contract value. This means that the contractor will be liable to pay a significant amount of money for any delays in the project.\n\nRisk Pricing: The bid desk should price in a risk premium for the potential delay damages, which could be around 2-5% of the contract value, depending on the contractor's risk assessment.\n\n2. Retention Money: Clause C4 states that 10% of each running account bill shall be withheld as retention money, released against the defect liability bank guarantee at completion. This means that the contractor will not receive the full payment for their work until the project is completed and the defect liability period is over.\n\nRisk Pricing: The bid desk should price in a risk premium for the retention money, which could be around 1-2% of the contract value, depending on the contractor's risk assessment.\n\n3. Price Basis: Clause C1 states that the price basis shall be firm and fixed, with no price variation/escalation admissible for",
+      "target_in_tok": 8192
+    }
+  ]
+}

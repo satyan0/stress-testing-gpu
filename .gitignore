@@ -103,11 +103,6 @@ datasets/
 *.tsv
 *.parquet
 
-# Generated outputs
-outputs/
-results/
-predictions/
-
 # Temporary files
 tmp/
 temp/
