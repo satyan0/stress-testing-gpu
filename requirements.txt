@@ -1,0 +1,17 @@
+# Core
+torch
+transformers>=4.45
+accelerate
+nvidia-ml-py            # provides `pynvml`
+
+# Backends
+vllm                    # for run_vllm.py
+bitsandbytes            # for run_vanilla.py 4bit/8bit (optional)
+
+# Model downloads
+huggingface_hub
+
+# NOTE on Blackwell (RTX PRO 6000 / GCP G4):
+#   The card needs a recent CUDA (12.8+/13) and a matching torch + vLLM build.
+#   The GCP accelerator-optimized image ships driver 580 / CUDA 13, which is fine.
+#   Install the CUDA-matched torch first if pip pulls a mismatched wheel.
